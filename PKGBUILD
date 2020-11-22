@@ -4,7 +4,7 @@
 # vim: set ts=4 sw=4 et ft=sh:
 
 pkgname=qutebrowser-git
-pkgver=1.13.0.r2.gcb15192cd
+pkgver=1.10.1.r1716.gca59a7a1d
 pkgrel=1
 pkgdesc="A keyboard-driven, vim-like browser based on PyQt5"
 arch=("any")
@@ -24,7 +24,7 @@ optdepends=("gst-libav: media playback with qt5-webkit backend"
 options=(!emptydirs)
 conflicts=('qutebrowser')
 provides=('qutebrowser')
-source=('git+https://github.com/qutebrowser/qutebrowser.git')
+source=("git+https://github.com/ArniDagur/qutebrowser.git#branch=more-sophisticated-adblock")
 sha256sums=('SKIP')
 
 pkgver() {
